@@ -4,9 +4,10 @@ string.split.each do |element|
     new_array << element.reverse 
   end 
   new_array.join(" ")
-  
- string.split.collect do |element|
+end 
+
+def reverse_each_word(string)
+  string.split.collect do |element|
     element.reverse
- end
 end 
 

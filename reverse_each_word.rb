@@ -5,6 +5,8 @@ string.split.each do |element|
   end 
   new_array.join(" ")
   
-  
+ string.split.collect do |element
+  element.reverse
+ end
 end 
 

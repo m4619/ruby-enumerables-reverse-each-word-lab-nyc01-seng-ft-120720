@@ -6,9 +6,5 @@ string.split.each do |element|
   new_array.join(" ")
 end 
 
-def reverse_each_word(string)
-  string.split.collect do |element|
-    element.reverse
-  end 
-end 
+
 
